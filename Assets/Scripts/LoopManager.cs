@@ -6,7 +6,6 @@ public class LoopManager : MonoBehaviour
 
     private SpawnManager spawnManager;
     private GameManager gameManager;
-    private DataManager dataManager;
 
     public int ObstacleIndex
     {
@@ -93,7 +92,6 @@ public class LoopManager : MonoBehaviour
     {
         gameManager = GameManager.Instance;
         spawnManager = SpawnManager.Instance;
-        dataManager = DataManager.Instance;
     }
 
     private void FixedUpdate()
